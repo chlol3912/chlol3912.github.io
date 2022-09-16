@@ -1,12 +1,13 @@
 h1{text-align: center;}
+
+#index{background:rgba(192, 228, 223, 0.8)}
 #index .menu{background:rgba(139, 220, 208, 0.8);}
+#index .fontcolor{color:rgb(57, 97, 91)}
 .menu ul{list-style-type: none; margin: 0; padding: 0; overflow: hidden;}
 .menu ul{display: flex; justify-content: center;}
 .menu ul a {float: left; display: block; text-align: center; padding: 8px 50px; text-decoration: none;}
+#index .menu a:hover{background:rgba(113, 177, 168, 0.8);}
 
-
-
-#index{background:rgba(192, 228, 223, 0.8)}
 td{border: solid 2px}
 table{border: solid 2px}
 th{border: solid 2px}
@@ -14,11 +15,15 @@ th{border: solid 2px}
 #foods{background:rgba(218, 187, 187, 0.8)}
 #foods .menu{background:rgba(216, 167, 167, 0.8)}
 #foods .fontcolor{color:rgb(234, 108, 108)}
+#foods .menu a:hover{background:rgba(190, 139, 139, 0.8)}
 
 #shows{background:rgba(229, 170, 122, 0.8)}
 #shows .menu{background:rgba(181, 135, 98, 0.8)}
 #shows .fontcolor{color:rgb(115, 87, 65)}
+#shows .menu a:hover{background:rgba(150, 112, 81, 0.8)}
 
 div{margin:10px;}
-
 span.bold{font-weight:bold}
+a{color:black}
+
+@media only screen and (max-width: 800px) {#index, #shows, #foods {background: white;}}
