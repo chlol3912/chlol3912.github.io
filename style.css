@@ -16,6 +16,7 @@ th{border: solid 2px}
 #foods .fontcolor{color:rgb(234, 108, 108)}
 
 #shows{background:rgba(229, 170, 122, 0.8)}
+#shows .menu{background:rgba(181, 135, 98, 0.8)}
 #shows .fontcolor{color:rgb(115, 87, 65)}
 
 div{margin:10px;}
